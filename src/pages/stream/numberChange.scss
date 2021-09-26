@@ -1,0 +1,44 @@
+
+.number-container{
+    transition: text-shadow 0.2s;
+
+    &.flash{
+        text-shadow: 0px 0px 40px #ffffff85, 0px 0px 40px #ffffff85, 0 0 40px #ffffff85;
+    }
+}
+
+.direction{
+    margin-left: 10px;
+    display: inline-block;
+    // fill: green;
+    width: 15px;
+    height: 15px;
+
+    #square{
+        width: 15px;
+        height: 15px;
+        transform: rotate(45deg);
+        fill: #7d7d7d;
+        position: relative;
+        top: -3px;
+    }
+    
+    
+    #arrow-up {
+        width: 15px;
+        height: 15px;
+        fill: #539853;
+        position: relative;
+        top: -8px;
+    }
+    
+    #arrow-down {
+        width: 15px;
+        height: 15px;
+        fill: #cc5252;
+        transform: rotate(180deg);
+        position: relative;
+        top: 0px;
+    }
+    
+}
