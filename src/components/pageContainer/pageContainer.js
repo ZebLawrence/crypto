@@ -5,8 +5,6 @@ import './pageContainer.scss';
 
 class PageContainer extends Component {
   render() {
-    console.log('This is the PageContainer render method');
-    console.log(this.props);
 
     const getConatinerClass = () => {
         let currentPath = this.props.location.pathname;

@@ -26,8 +26,6 @@ export default api => {
         try {
             let response = yield call(apiType, action.endPoint, action.params);
 
-            console.log('the response', response);
-            console.log('the response', response.headers);
             switch (response.status) {
                 case 304:
                 case 200:
