@@ -7,17 +7,17 @@ export const INITIAL_STATE = {
     symbolsData: [],
     coins: [
         {
-            purchasedPrice: 100,
+            purchasedPrice: 200,
             coin: 'ETH',
             coinPair: 'ETHUSD',
-            ratio: 0.03231,
+            ratio: 0.05701,
             chartNum: 1027
         },
         {
-            purchasedPrice: 100,
+            purchasedPrice: 200,
             coin: 'SOL',
             coinPair: 'SOLUSD',
-            ratio: 0.65,
+            ratio: 1.16,
             chartNum: 5426
         },
         {
@@ -49,10 +49,10 @@ export const INITIAL_STATE = {
             chartNum: 4030
         },
         {
-            purchasedPrice: 50,
+            purchasedPrice: 100,
             coin: 'MATIC',
             coinPair: 'MATICUSD',
-            ratio: 40.3,
+            ratio: 68.2,
             chartNum: 3890
         }
     ],
